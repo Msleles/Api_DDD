@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api.Services", "Api.Service
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api.Testes", "Api.Testes", "{14CFE1F4-488C-42C7-ADC6-8B5B46792085}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTeste", "ApiTeste\ApiTeste.csproj", "{24B45877-1508-4AF7-8D7E-7F0E1E66A661}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTeste", "ApiTeste\ApiTeste.csproj", "{24B45877-1508-4AF7-8D7E-7F0E1E66A661}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

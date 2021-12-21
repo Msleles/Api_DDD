@@ -48,6 +48,8 @@ namespace Data.Repository
             }
         }
 
+
+
         public async Task<Entidade> InsertAsync(Entidade Item)
         {
             try

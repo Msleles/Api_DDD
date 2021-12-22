@@ -6825,9 +6825,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Alura\\Curso_Api\\src\\Appication\\Appication.csproj",
-      "projectName": "Appication",
-      "projectPath": "C:\\Alura\\Curso_Api\\src\\Appication\\Appication.csproj",
+      "projectUniqueName": "C:\\Alura\\Curso_Api\\src\\Appication\\Application.csproj",
+      "projectName": "Application",
+      "projectPath": "C:\\Alura\\Curso_Api\\src\\Appication\\Application.csproj",
       "packagesPath": "C:\\Users\\Maycon\\.nuget\\packages\\",
       "outputPath": "C:\\Alura\\Curso_Api\\src\\Appication\\obj\\",
       "projectStyle": "PackageReference",

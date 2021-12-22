@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L2ceYjwd7Tw0NbxadnFWtUgrv9yJtYwDPPxGvU2uzQhXQeIjvIK+kXXv0fethIrVx09nWkl+6W3Q8ZJjc7nL7Q==",
+  "dgSpecHash": "1hgQfZwwg0Pdr770lTrKPgPmWhWI1dxHHpucdf5n0z/FlOyZKiIK2kAut5F7LVGQGyV9W5ZKWwNHb8fr+RB67A==",
   "success": true,
-  "projectFilePath": "C:\\Alura\\Curso_Api\\src\\Appication\\Appication.csproj",
+  "projectFilePath": "C:\\Alura\\Curso_Api\\src\\Appication\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maycon\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\Maycon\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

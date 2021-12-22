@@ -81,7 +81,7 @@ namespace Appication.Controllers
             {
                 return Ok(await service.Delete(Id));
             }
-            catch (ArgumentException e)
+            catch (ArgumentException e )
             {
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }

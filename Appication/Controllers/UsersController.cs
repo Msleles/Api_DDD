@@ -12,8 +12,15 @@ namespace Appication.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
+        private IUserService _service;
+        public UsersController(IUserService userService)
+        {
+            _service = userService;
+        }
+
+
         [HttpGet]
-        public async Task<ActionResult> GetAll([FromServices] IUserService service)
+        public async Task<ActionResult> GetAll()
         {
             if (!ModelState.IsValid)
             {
@@ -21,17 +28,40 @@ namespace Appication.Controllers
             }
             try
             {
-                return Ok(await service.GetAll());
+                return Ok(await _service.GetAll());
             }
             catch (ArgumentException e)
             {
-                return StatusCode((int) HttpStatusCode.InternalServerError,e.Message);
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
+
+        [HttpGet]
+        [Route("{Id}", Name = "GetDataById")]
+        public async Task<ActionResult> Get(Guid Id)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+
+                return Ok( await _service.Get(Id));
+
+            }
+            catch (ArgumentException e)
+            {
+
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
 
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromServices] IUserService service, UserEntity user)
+        public async Task<ActionResult> Post([FromBody]UserEntity user)
         {
             if (!ModelState.IsValid)
             {
@@ -40,7 +70,15 @@ namespace Appication.Controllers
 
             try
             {
-                return Ok(await service.Post(user));
+              var result =  await _service.Post(user);
+                if(result != null)
+                {
+                    return Created(new Uri(Url.Link("GetDataById", new { id = result.Id })), result);
+                }
+                else
+                {
+                    return BadRequest();
+                }
             }
             catch (ArgumentException e)
             {
@@ -50,7 +88,7 @@ namespace Appication.Controllers
 
 
         [HttpPut]
-        public async Task<ActionResult> Put([FromServices] IUserService service, UserEntity user)
+        public async Task<ActionResult> Put(UserEntity user)
         {
             if (!ModelState.IsValid)
             {
@@ -59,7 +97,7 @@ namespace Appication.Controllers
 
             try
             {
-                return Ok(await service.Put(user));
+                return Ok(await _service.Put(user));
             }
             catch (ArgumentException e)
             {
@@ -70,7 +108,7 @@ namespace Appication.Controllers
 
         [HttpDelete("{Id}")]
 
-        public async Task<ActionResult> Delete([FromServices] IUserService service, Guid Id)
+        public async Task<ActionResult> Delete(Guid Id)
         {
             if (!ModelState.IsValid)
             {
@@ -79,7 +117,7 @@ namespace Appication.Controllers
 
             try
             {
-                return Ok(await service.Delete(Id));
+                return Ok(await _service.Delete(Id));
             }
             catch (ArgumentException e )
             {

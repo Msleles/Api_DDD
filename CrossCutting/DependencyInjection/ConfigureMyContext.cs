@@ -16,7 +16,7 @@ namespace CrossCutting.DependencyInjection
         {
 
             serviceColletion.AddDbContext<MyContext>(
-               options => options.UseSqlServer("Data Source=192.168.0.110;Initial Catalog=dbAPI;Persist Security Info=True;User ID=sa;Password=feed333;Connect Timeout=180;Encrypt=False;Current Language=Brazilian")
+               options => options.UseSqlServer("Data Source=localhost;Initial Catalog=dbAPI;Persist Security Info=True;User ID=sa;Password=Feed@123;Connect Timeout=180;Encrypt=False;Current Language=Brazilian")
                );
 
         }

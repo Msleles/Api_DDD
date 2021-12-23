@@ -22,21 +22,6 @@ namespace ApiTeste
             _userService = userService;
         }
 
-        [Fact]
-        public void GetUsuarios()
-        {
-            UserEntity user = new UserEntity();
-            {
-                user.Id = Guid.NewGuid();
-                user.Nome = "Maycon Leles";
-                user.Email = "Maycon91leles@hotmail.com";
-            }
-            var ActionResult = _userConroller.GetAll(_userService);
-
-            Assert.NotNull(ActionResult);           
-            Assert.True(ActionResult.IsCompletedSuccessfully);
-        }
-
-       
+          
     }
 }

@@ -152,3 +152,4 @@ C:\Alura\Curso_Api\src\ApiTeste\obj\Debug\net5.0\ApiTeste.dll
 C:\Alura\Curso_Api\src\ApiTeste\obj\Debug\net5.0\ref\ApiTeste.dll
 C:\Alura\Curso_Api\src\ApiTeste\obj\Debug\net5.0\ApiTeste.pdb
 C:\Alura\Curso_Api\src\ApiTeste\obj\Debug\net5.0\ApiTeste.genruntimeconfig.cache
+C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll

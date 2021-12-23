@@ -17,5 +17,6 @@ namespace Data.Context
             modelBuilder.Entity<UserEntity> (new UserMap().Configure);
         }
 
+       
     }
 }

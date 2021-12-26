@@ -9,3 +9,4 @@ C:\Alura\Curso_Api\src\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.c
 C:\Alura\Curso_Api\src\Domain\obj\Debug\net5.0\Domain.dll
 C:\Alura\Curso_Api\src\Domain\obj\Debug\net5.0\ref\Domain.dll
 C:\Alura\Curso_Api\src\Domain\obj\Debug\net5.0\Domain.pdb
+C:\Alura\Curso_Api\src\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache

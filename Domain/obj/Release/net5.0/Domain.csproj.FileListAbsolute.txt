@@ -1,0 +1,12 @@
+C:\Alura\Curso_Api\src\Domain\bin\Release\net5.0\Domain.deps.json
+C:\Alura\Curso_Api\src\Domain\bin\Release\net5.0\Domain.dll
+C:\Alura\Curso_Api\src\Domain\bin\Release\net5.0\ref\Domain.dll
+C:\Alura\Curso_Api\src\Domain\bin\Release\net5.0\Domain.pdb
+C:\Alura\Curso_Api\src\Domain\obj\Release\net5.0\Domain.csproj.AssemblyReference.cache
+C:\Alura\Curso_Api\src\Domain\obj\Release\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alura\Curso_Api\src\Domain\obj\Release\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Alura\Curso_Api\src\Domain\obj\Release\net5.0\Domain.AssemblyInfo.cs
+C:\Alura\Curso_Api\src\Domain\obj\Release\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Alura\Curso_Api\src\Domain\obj\Release\net5.0\Domain.dll
+C:\Alura\Curso_Api\src\Domain\obj\Release\net5.0\ref\Domain.dll
+C:\Alura\Curso_Api\src\Domain\obj\Release\net5.0\Domain.pdb

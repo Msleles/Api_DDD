@@ -19,11 +19,13 @@ C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\ref\ApiTeste.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\ApiTeste.pdb
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\AutoMapper.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Castle.Core.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
@@ -41,6 +43,7 @@ C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.TestPlatform.Communic
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Moq.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\NuGet.Frameworks.dll
 C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -152,4 +155,3 @@ C:\Alura\Curso_Api\src\ApiTeste\obj\Debug\net5.0\ApiTeste.dll
 C:\Alura\Curso_Api\src\ApiTeste\obj\Debug\net5.0\ref\ApiTeste.dll
 C:\Alura\Curso_Api\src\ApiTeste\obj\Debug\net5.0\ApiTeste.pdb
 C:\Alura\Curso_Api\src\ApiTeste\obj\Debug\net5.0\ApiTeste.genruntimeconfig.cache
-C:\Alura\Curso_Api\src\ApiTeste\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
